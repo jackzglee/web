@@ -1,0 +1,88 @@
+@charset "utf-8";
+area{blr:expression(this.onFocus=this.blur());}
+area{-webkit-tap-highlight-color:transparent;}
+.map{background:url(../image/maps/bg1.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/bg1.png*/ -1px 1px no-repeat;width:701px;height:600px;}
+.layer{width:100%;height:100%;position:absolute;left:0;top:0;width:100%;height:100%;}
+.map{position:relative;left:10px;top:-10px;}
+.parts{position:absolute;left:0;top:0;width:100%;height:100%;}
+.parts .part{position:absolute;opacity:0;filter:alpha(opacity='0');
+transition:all 0.3s ease-out 0s;-webkit-transition:all 0.3s ease-out 0s;}
+.parts .part.show,.parts .part.on{opacity:1;filter:alpha(opacity='100'); }
+.parts .part span{display:block;}
+.city{width:100%;height:100%;position:absolute;left:0px;top:0px;background:url() 0 0 no-repeat;display:none;}
+
+.part-xinjiang{left:5px;top:83px;}
+.part-xinjiang span{background:url(../image/maps/xinjiang.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/xinjiang.png*/ 0 0 no-repeat;width:280px;height:214px;}
+.part-xizang{left:29px;top:280px;}
+.part-xizang span{background:url(../image/maps/xizang.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/xizang.png*/ 0 0 no-repeat;width:286px;height:174px;}
+.part-gansu{left:233px;top:194px;}
+.part-gansu span{background:url(../image/maps/gansu.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/gansu.png*/ 0 0 no-repeat;width:198px;height:171px;}
+.part-qinghai{left:182px;top:246px;}
+.part-qinghai span{background:url(../image/maps/qinghai.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/qinghai.png*/ 0 0 no-repeat;width:177px;height:129px;}
+.part-sichuan{left:279px;top:331px;}
+.part-sichuan span{background:url(../image/maps/sichuan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/sichuan.png*/ 0 0 no-repeat;width:154px;height:136px;}
+.part-yunnan{left:274px;top:412px;}
+.part-yunnan span{background:url(../image/maps/yunnan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/yunnan.png*/ 0 0 no-repeat;width:126px;height:131px;}
+.part-guangxi{left:372px;top:453px;}
+.part-guangxi span{background:url(../image/maps/guangxi.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/guangxi.png*/ 0 0 no-repeat;width:112px;height:87px;}
+.part-guizhou{left:359px;top:410px;}
+.part-guizhou span{background:url(../image/maps/guizhou.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/guizhou.png*/ 0 0 no-repeat;width:87px;height:76px;}
+.part-hunan{left:434px;top:394px;}
+.part-hunan span{background:url(../image/maps/hunan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/hunan.png*/ 0 0 no-repeat;width:79px;height:91px;}
+.part-chongqing{left:387px;top:364px;}
+.part-chongqing span{background:url(../image/maps/chongqing.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/chongqing.png*/ 0 0 no-repeat;width:66px;height:67px;}
+.part-hubei{left:425px;top:346px;}
+.part-hubei span{background:url(../image/maps/hubei.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/hubei.png*/ 0 0 no-repeat;width:109px;height:70px;}
+.part-jiangxi{left:497px;top:392px;}
+.part-jiangxi span{background:url(../image/maps/jiangxi.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/jiangxi.png*/ 0 0 no-repeat;width:71px;height:93px;}
+.part-shanxi{left:445px;top:226px;}
+.part-shanxi span{background:url(../image/maps/shanxi-up.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/shanxi-up.png*/ 0 0 no-repeat;width:52px;height:106px;}
+.part-shanxi2{left:387px;top:248px;}
+.part-shanxi2 span{background:url(../image/maps/shanxi.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/shanxi.png*/ 0 0 no-repeat;width:75px;height:128px;}
+.part-henan{left:449px;top:293px;}
+.part-henan span{background:url(../image/maps/henan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/henan.png*/ 0 0 no-repeat;width:85px;height:82px;}
+.part-anhui{left:509px;top:317px;}
+.part-anhui span{background:url(../image/maps/anhui.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/anhui.png*/ 0 0 no-repeat;width:70px;height:85px;}
+.part-hebei{left:482px;top:191px;}
+.part-hebei span{background:url(../image/maps/hebei.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/hebei.png*/ 0 0 no-repeat;width:80px;height:112px;}
+.part-neimenggu{left:290px;top:21px;}
+.part-neimenggu span{background:url(../image/maps/neimenggu.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/neimenggu.png*/ 0 0 no-repeat;width:306px;height:262px;}
+.part-ningxia{left:369px;top:251px;}
+.part-ningxia span{background:url(../image/maps/ningxia.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/ningxia.png*/ 0 0 no-repeat;width:45px;height:71px;}
+.part-beijing{left:503px;top:217px;}
+.part-beijing span{background:url(../image/maps/beijing.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/beijing.png*/ 0 0 no-repeat;width:29px;height:29px;}
+.part-tianjin{left:521px;top:226px;}
+.part-tianjin span{background:url(../image/maps/tianjin.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/tianjin.png*/ 0 0 no-repeat;width:23px;height:30px;}
+.part-heilongjiang{left:536px;top:15px;}
+.part-heilongjiang span{background:url(../image/maps/heilongjiang.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/heilongjiang.png*/ 0 0 no-repeat;width:156px;height:143px;}
+.part-jilin{left:560px;top:123px;}
+.part-jilin span{background:url(../image/maps/jilin.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/jilin.png*/ 0 0 no-repeat;width:119px;height:83px;}
+.part-liaoning{left:541px;top:169px;}
+.part-liaoning span{background:url(../image/maps/liaoning.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/liaoning.png*/ 0 0 no-repeat;width:86px;height:82px;}
+.part-shandong{left:505px;top:261px;}
+.part-shandong span{background:url(../image/maps/shandong.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/shandong.png*/ 0 0 no-repeat;width:97px;height:64px;}
+.part-jiangsu{left:525px;top:309px;}
+.part-jiangsu span{background:url(../image/maps/jiangsu.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/jiangsu.png*/ 0 0 no-repeat;width:84px;height:66px;}
+.part-shanghai{left:592px;top:357px;}
+.part-shanghai span{background:url(../image/maps/shanghai.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/shanghai.png*/ 0 0 no-repeat;width:19px;height:18px;}
+.part-zhejiang{left:559px;top:369px;}
+.part-zhejiang span{background:url(../image/maps/zhejiang.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/zhejiang.png*/ 0 0 no-repeat;width:55px;height:63px;}
+.part-fujian{left:531px;top:414px;}
+.part-fujian span{background:url(../image/maps/fujian.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/fujian.png*/ 0 0 no-repeat;width:66px;height:80px;}
+.part-guangdong{left:448px;top:465px;}
+.part-guangdong span{background:url(../image/maps/guangdong.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/guangdong.png*/ 0 0 no-repeat;width:113px;height:91px;}
+.part-hainan{left:433px;top:551px;}
+.part-hainan span{background:url(../image/maps/hainan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/hainan.png*/ 0 0 no-repeat;width:38px;height:33px;}
+.part-taiwan{left:592px;top:458px;}
+.part-taiwan span{background:url(../image/maps/taiwan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/taiwan.png*/ 0 0 no-repeat;width:27px;height:58px;}
+.part-neimeng{left:289px;top:21px;}
+.part-neimeng span{background:url(../image/maps/neimeng.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/neimeng.png*/ 0 0 no-repeat;width:306px;height:262px;}
+.part-tianjin{left:520px;top:227px;}
+.part-tianjin span{background:url(../image/maps/tianjin.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/tianjin.png*/ 0 0 no-repeat;width:23px;height:30px;}
+/*.part-macao{left:493px;top:509px;}
+.part-macao span{background:url(../image/maps/aomen.png) 0 0 no-repeat;width:29px;height:16px;}*/
+/*.part-hk{left:516px;top:502px;}
+.part-hk span{background:url(../image/maps/xianggang.png) 0 0 no-repeat;width:33px;height:16px;}*/
+.part-nanhai{left:636px;top:489px; }
+.part-nanhai span{background:url(../image/maps/hainan.png)/*tpa=http://www.fengbangleasing.com/Public/static/themes/image/maps/hainan.png*/ 0 0 no-repeat;width:58px;height:94px;}
+

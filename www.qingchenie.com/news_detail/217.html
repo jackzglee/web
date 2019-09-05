@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+<head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="author" content="http://www.fractal-technology.com">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="keywords" content="通旺空调"/>
+
+    <meta name="description" content="通旺空调这次所做项目是德惠龙德休闲会所，由于效率提高，提前交付。
+
+
+	
+
+
+	 
+
+
+	
+
+
+	所有盈利资金将用于开城扩张，扩大车队数量..."/>
+
+
+    <title>通旺空调投资通旺 发力全国中央空调销售市场 - 通旺空调有限公司-联接人车美好生活 - 通旺空调</title>
+    <link rel="stylesheet" type="text/css" href="../Public/static/themes/css/jquery.mCustomScrollbar.css"
+          tppabs="/Public/static/themes/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../Public/static/themes/css/video-js.css"
+          tppabs="/Public/static/themes/css/video-js.css">
+    <link rel="stylesheet" type="text/css" href="../Public/static/themes/css/global.css"
+          tppabs="/Public/static/themes/css/global.css">
+    <link rel="stylesheet" type="text/css" href="../Public/static/themes/css/flex.css"
+          tppabs="/Public/static/themes/css/flex.css">
+    <link rel="stylesheet" type="text/css" href="../Public/static/themes/css/page.css"
+          tppabs="/Public/static/themes/css/page.css">
+    <script src="../Public/static/themes/js/plugs/jquery-1.11.3.min.js"
+            tppabs="/Public/static/themes/js/plugs/jquery-1.11.3.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/jquery.placeholder.min.js"
+            tppabs="/Public/static/themes/js/plugs/jquery.placeholder.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/jquery.ba-throttle-debounce.min.js"
+            tppabs="/Public/static/themes/js/plugs/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/jquery.mCustomScrollbar.concat.min.js"
+            tppabs="/Public/static/themes/js/plugs/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/TweenMax.min.js"
+            tppabs="/Public/static/themes/js/plugs/TweenMax.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/video.js" tppabs="/Public/static/themes/js/plugs/video.js"></script>
+    <script src="../Public/static/themes/js/plugs/slick.js" tppabs="/Public/static/themes/js/plugs/slick.js"></script>
+    <script src="../Public/static/themes/js/plugs/xRoll.js" tppabs="/Public/static/themes/js/plugs/xRoll.js"></script>
+    <script src="../Public/static/themes/js/global.js" tppabs="/Public/static/themes/js/global.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <script src="../Public/static/themes/js/plugs/html5shiv.min.js"
+            tppabs="/Public/static/themes/js/plugs/html5shiv.min.js"></script>
+    <script src="../Public/static/themes/js/plugs/respond.min.js"
+            tppabs="/Public/static/themes/js/plugs/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<span class="gotop js-gotop js-scroller">top</span>
+<style>
+    .empty-data {
+        width: 100%;
+        font-size: 25px;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        text-align: center;
+    }
+</style>
+<style>
+    #myalert {
+        display: none;
+    }
+
+    .recruit .block1 {
+        height: auto
+    }
+
+    .layer {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000000;
+    }
+
+    .layer .myalert {
+        padding: 30px;
+        background: #fff;
+        width: 240px;
+        position: absolute;
+        margin-top: -100px;
+        top: 50%;
+        left: 50%;
+        margin-left: -150px;
+        text-align: center;
+        z-index: 100000
+    }
+
+    .layer .guan {
+        background: url(../Public/static/themes/image/clos.png) /*tpa=/Public/static/themes/image/clos.png*/ no-repeat center;
+        display: block;
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .layer .text {
+        padding-bottom: 15px;
+        font-size: 16px;
+        color: #474747;
+    }
+
+    .layer .button {
+        background: none;
+        border: 1px solid #bbbbbb;
+        width: 91px;
+        height: 29px;
+        font: 14px/100% "Microsoft YaHei", Arial, Tahoma, Helvetica, sans-serif;
+        color: #707070;
+    }
+</style>
+<div id="myalert" class="layer">
+    <div class="myalert">
+        <a href="javascript:;" onclick="myalert_hide();" class="guan"></a>
+        <div class="text">请输入关键字</div>
+        <a>
+            <button class="button" id="my_ok" style="cursor:pointer ;opacity: 1;transform: translateY(0px);">确定</button>
+        </a>
+    </div>
+</div>
+<script>
+    function my_alert(title, url) {
+        $('#myalert').show();
+        $('#myalert .myalert div').html(title);
+        if (url) {
+            $('#my_ok').click(function () {
+                window.location.href = url;
+            });
+        } else {
+            $('#my_ok').click(function () {
+                $('#myalert').hide();
+            });
+        }
+    }
+
+    function myalert_hide() {
+        $('#myalert').hide();
+    }
+</script>
+<div class="x-header oheader">
+    <div class="x-wrap">
+        <div class="menu-head">
+            <div class="logo" edit_params="width%3D164%26height%3D46%26zoom%3D0.5%26unlimit%3D1%26backgroundColor%3D1">
+                <a href="../index.html" tppabs="/index.html"><img src="../static/images/logo.jpg"
+                                                                  tppabs="/static/images/logo.jpg"
+                                                                  title="通旺空调" alt="通旺空调"></a></div>
+            <div class="menu-btn m-show"><span class="line"></span></div>
+        </div>
+        <div class="tools p-show">
+            <div class="tele">18643075857</div>
+            <div class="share-box bdsharebuttonbox">
+                <a class="share-item icon-add" href="../contact.html" tppabs="/contact.html" title=""></a>
+                <a class="share-item icon-wchat" href="javascript:;" title="分享到微信">
+                    <div class="code"><img title="00" src="../Uploads/Picture/2018/12/20/s5c1b412dd3da6.jpg"
+                                           tppabs="/Uploads/Picture/2018/12/20/s5c1b412dd3da6.jpg" alt="11"/>
+                    </div>
+                </a>
+            </div>
+            <div class="search-trigger">
+                <div class="search-box">
+                    <div class="search-txt"><input placeholder="search..." id="keyword" type="text" name="keyword">
+                    </div>
+                    <button class="search-btn" id="submit" type="submit">&#xe851;</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-mod">
+            <div class="search-box m-show">
+                <div class="search-txt"><input type="text" id="key" name="keyword" placeholder="search..."></div>
+                <button class="search-btn" id="submit2" type="submit"></button>
+            </div>
+            <ul class="nav-lv nav-lv1 clear">
+                <li class="nav-item">
+                    <div class="nav-tit">
+                        <a class="nav-link" href="../index.html" tppabs="/about.html">首页</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-tit">
+                        <a class="nav-link" href="../about.html" tppabs="/chengdu.html">关于我们</a>
+                    </div>
+                </li>
+                <li class="nav-item cur">
+                    <div class="nav-tit">
+                        <a class="nav-link" href="../news.html" tppabs="/cooperation.html">新闻资讯</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-tit">
+                        <a class="nav-link" href="../service.html" tppabs="/company.html">服务支持</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-tit">
+                        <a class="nav-link" href="../contact.html" tppabs="/social.html">联系我们</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="share-box bdsharebuttonbox m-show">
+                <div class="tele"><a href="tel:18643075857">18643075857</a></div>
+                <a class="share-item icon-add" href="../contact.html" tppabs="/contact.html" title=""></a>
+                <a class="share-item icon-wchat" href="javascript:;" title="分享到微信"> 
+                    <span class="code">
+                        <span class="img_t">
+                               <div><img title="00" src="../Uploads/Picture/2018/12/20/s5c1b412dd3da6.jpg"
+                                         tppabs="/Uploads/Picture/2018/12/20/s5c1b412dd3da6.jpg" alt="11"/>
+                               </div>
+                        <span>地址：</span>
+                        </span>    
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#submit').click(function () {
+        var keyword = $('#keyword').val();
+        if (!keyword) {
+            my_alert("请输入关键词");
+            return false;
+        }
+        var keys = "";
+        if (!keys) {
+            window.open("/Article/Index/search?keyword=" + keyword);
+        } else {
+            location.href = "../Article/Index/search-keyword=.htm"/*tpa=/Article/Index/search?keyword=*/ + keyword;
+        }
+    });
+
+    $('#submit2').click(function () {
+        var keyword = $('#key').val();
+        if (!keyword) {
+            my_alert("请输入关键词");
+            return false;
+        }
+        var keys = "";
+        if (!keys) {
+            window.open("/Article/Index/search?keyword=" + keyword);
+        } else {
+            location.href = "../Article/Index/search-keyword=.htm"/*tpa=/Article/Index/search?keyword=*/ + keyword;
+        }
+    });
+
+    $('#submit3').click(function () {
+        var keyword = $('#keys').val();
+        if (!keyword) {
+            my_alert("请输入关键词");
+            return false;
+        }
+        var keys = "";
+        if (!keys) {
+            window.open("/Article/Index/search?keyword=" + keyword);
+        } else {
+            location.href = "../Article/Index/search-keyword=.htm"/*tpa=/Article/Index/search?keyword=*/ + keyword;
+        }
+    });
+
+    $('#keyword').bind('keypress', function (event) {
+        if (event.keyCode == "13") {
+            $("#submit").click();
+        }
+    });
+
+    $('#key').bind('keypress', function (event) {
+        if (event.keyCode == "13") {
+            $("#submit2").click();
+        }
+    });
+
+    $('#keys').bind('keypress', function (event) {
+        if (event.keyCode == "13") {
+            $("#submit3").click();
+        }
+    })
+</script>
+<div class="x-container">
+    <div class="article">
+        <div class="x-wrap">
+            <div class="article-title">
+                <div class="h30 tit">通旺空调 发力二级市场</div>
+                <div class="info">
+                    <span class="date">2018.03.23</span></div>
+            </div>
+
+
+            <div class="article-cont">
+                <p>
+                    通旺空调这次所做项目是德惠龙德休闲会所的中央空调的安装与调试，由于效率提高，提前交付。
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p style="text-align:center;">
+                    <img alt="" src="../Uploads/Picture/2018/12/24/s5c20853d5b0e6.jpg"
+                         tppabs="/Uploads/Picture/2018/12/24/s5c20853d5b0e6.jpg"/><img alt=""
+                                                                                       src="../Uploads/Picture/2018/12/24/s5c20881c9f432.jpg"
+                                                                                       tppabs="/Uploads/Picture/2018/12/24/s5c20881c9f432.jpg"/>
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    去年11月，通旺接到此项目中标通知，开始采购设备，并与客户协商规划整体方案
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    通过运用电脑技术，通旺对整体房屋建造的全流程信息化管控，如通过CAD数据的分析，为客户提供工作优化建议，这让部分核心不分的工作效率提高平均水平15%以上。
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    除提供数据分析外，通旺空调的另一大块业务是做空调的维修服务这一块。
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    目前，通旺空调在全国有多家运营点，在10余个城市展开规模化运营，管理自有平台，客户电话求助，我们会第一时间相应，并作出最优化方案进行维修。
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    通旺空调的收入来自三个方面，空调的销售、空调服务和后市场服务。空调销售与产品安装为主要盈利点和其他相关收入。
+                </p>
+                <p>
+                    <br/>
+                </p>
+                <p>
+                    <br/>
+                </p></div>
+
+            <div class="down clear">
+
+
+            </div>
+
+            <div class="article-paging">
+                <div class="prev">
+                    <a>上一条：没有了</a>
+                </div>
+                <div class="next">
+                    <a href="224.html" tppabs="/news_detail/224.html" title="德惠乾佳酒店 通旺空调创造行业发展记录">下一条：德惠乾佳酒店
+                        通旺空调创造行业发展记录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var wplayer = videojs('video');
+
+        $(".article .video .vimg").click(function () {
+            $(".article .video .vimg").hide();
+            wplayer.play();
+        })
+    })
+</script>
+<div class="x-footer">
+    <div class="x-wrap">
+        <div class="link" edit_params="title1Show%3D1%26title1Max%3D6%26showLink%3D1%26tabs%3D4">
+            <a href="../sitemap.html" tppabs="/sitemap.html" target="_blank">网站地图 </a><a
+                href="../single_detail/214.html-_isa=1.htm" tppabs="/single_detail/214.html?_isa=1"
+                target="_blank">隐私条款 </a><a href="../single_detail/215.html-_isa=1.htm"
+                                            tppabs="/single_detail/215.html?_isa=1" target="_blank">政策法规 </a><a
+                href="../contact.html#qiipage" tppabs="/contact.html#qiipage" target="_blank">联系我们 </a></div>
+        <p class="copy">Copyright©2017 通旺空调. All Rights Reserved</p>
+        <p class="ftbjbox"><span>备案号：京ICP备19004763号</span></p>
+    </div>
+</div>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "../../hm.baidu.com/hm.js-c88a4ea3554b6ea0acb5c5e711486bbb.js"/*tpa=https://hm.baidu.com/hm.js?c88a4ea3554b6ea0acb5c5e711486bbb*/;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</body>
+</html>
